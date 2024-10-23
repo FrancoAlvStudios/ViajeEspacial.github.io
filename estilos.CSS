@@ -1,0 +1,96 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(FondoPlus.jpg);   
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+
+
+}
+
+h1 {
+    color: yellow;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: red;
+    margin-top: 20px;
+    text-align: center;
+}
+
+h3, h4, p {
+    color: white;
+    margin: 10px 0; /* Espaciado entre párrafos y encabezados */
+}
+
+ul {
+    list-style-type: disc; /* Mantiene los puntos de la lista */
+    padding-left: 20px; /* Espaciado interno */
+    color: white;
+}
+
+img {
+    display: block;
+    margin: 20px auto; /* Centra las imágenes */
+    border: 3px solid white; /* Agrega borde a las imágenes */
+    border-radius: 10px; /* Bordes redondeados */
+    transition: transform 0.3s; /* Transición suave para el hover */
+}
+
+img:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+}
+
+/* Media queries para responsive design */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 24px; /* Tamaño de fuente más pequeño en móviles */
+    }
+    img {
+        width: 90%; /* Imágenes más pequeñas en móviles */
+    }
+}
+
+a{
+    color: rgb(255, 0, 0);
+    font-size: 15px;
+}
+
+/* locooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+section {
+    padding: 20px;
+}
+
+.producto {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+}
+
+.producto img {
+    max-width: 100%;
+}
